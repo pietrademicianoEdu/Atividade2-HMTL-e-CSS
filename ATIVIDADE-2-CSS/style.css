@@ -1,0 +1,59 @@
+body {
+    background-color: #7ba3df; 
+    font-family: "Oswald", sans-serif;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 45px;
+}
+
+h2, h3 {
+    color: #06165e; 
+    text-align: center; 
+    font-size: 25px;
+}
+
+p, li, a {
+    font-size: 20px;
+}
+
+.branco {
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+}
+
+/*Box Model com margin, padding e border*/
+#beneficios {
+    background-color: #c4d1ec;
+    margin: 20px; 
+    padding: 20px; 
+    border-style: solid; 
+    border-color: #ffffff; 
+    border-width: 3px;
+}
+
+#Imagem {
+    text-align: center;
+    margin: 20px;
+}
+
+ul {
+    list-style-type: circle; 
+}
+
+ol {
+    list-style-type: decimal-leading-zero;
+}
+
+a {
+    color: #ffffff;
+    padding: 10px; 
+}
+
+a:hover {
+    color: #4e40d3; /*mudança de cor do link*/
+    font-style: italic;
+}
